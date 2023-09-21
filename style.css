@@ -1,0 +1,28 @@
+
+#letrero{color:rgb(4, 71, 13); text-shadow: 0px 0px 10px palegreen;text-align: center;font-size: 150%;}
+#vocal{color:rgb(4, 71, 13); text-shadow: 0px 0px 10px palegreen;text-align: center;font-size: 150%;}
+    
+html{background-color: rgb(71, 71, 71);color: azure;}
+
+nav{padding: 2%; background-color: rgb(228, 119, 186);text-align: center; }
+a{margin-left: 10%; color:white; font-weight: bold; text-decoration: none;
+    text-shadow: 1px 2px rgb(105, 7, 40); font-size: 150%;}
+
+a:hover{
+    color:rgb(189, 41, 85)
+}
+
+html{background-image: url(fondo.png);} 
+body{text-align: center;}
+
+#elemento{font-size: 120%; border-color: pink;}
+#agregar{font-size: 120%; border-color: rgb(4, 71, 13);background-color:  palegreen;}
+#terminar{color: white;font-size: 120%;border-color: rgb(105, 7, 40);background-color: rgb(224, 81, 169);}
+#refrescar{color: white;font-size: 120%;border-color:  palegreen;background-color: rgb(4, 71, 13);}
+
+#lista{font-size: 140%;font-weight: bold;}
+.grupo1{color:rgb(0, 0, 0);font-weight: normal; text-shadow: 0px 0px 2px rgb(211, 0, 123);}
+#recuento{font-size: 140%;}
+#home{color:rgb(226, 43, 134);border: 1px black solid;}
+
+img{width: 31% ; height: 50%;}

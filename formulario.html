@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Concurso de palabras</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="juego.html">Juego</a>
+        <a href="formulario.html">Formulario</a>
+    </nav>
+    <br><br>
+
+    <form class="grupo1">
+        <h2>Rellena los datos</h2><br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre"><br><br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos"><br><br>
+        <label for="correo">Correo electronico:</label>
+        <input type="text" name="corero"><br><br>
+
+        <p>Que vocal le ha resultado mas difícil</p>
+        <input type="checkbox" value="a">
+        <label for="a">A</label><br>
+        <input type="checkbox" value="e">
+        <label for="e">E</label><br>
+        <input type="checkbox" value="i">
+        <label for="i">I</label><br>
+        <input type="checkbox" value="o">
+        <label for="o">O</label><br>
+        <input type="checkbox" value="u">
+        <label for="u">U</label><br>
+
+        <br>
+        <p>Indique el nivel de diversion que ha experimentado</p>
+        <input type="range" name="rango" min="0" max="10" step="1">
+        <p>0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10</p>
+        
+        <br>
+        <button id="agregar">Enviar</button>
+    </form>
+    
+<script src="script.js"></script>
+</body>
+</html>
